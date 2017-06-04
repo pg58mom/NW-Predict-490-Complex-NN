@@ -10576,35 +10576,7 @@ GB1vWeightArray, GB1vBiasWeightArray):
         mask2LetterArray = maskLetterFunc(expandedLetterArray, mask2)
         mask2LetterList = convertArrayToList(mask2LetterArray)
 
-        mask3LetterArray = maskLetterFunc(expandedLetterArray, mask3)
-        mask3LetterList = convertArrayToList(mask3LetterArray)  
-
-        mask4LetterArray = maskLetterFunc(expandedLetterArray, mask4)
-        mask4LetterList = convertArrayToList(mask4LetterArray)    
-        
-        mask5LetterArray = maskLetterFunc(expandedLetterArray, mask5)
-        mask5LetterList = convertArrayToList(mask5LetterArray)
-
-        mask6LetterArray = maskLetterFunc(expandedLetterArray, mask6)
-        mask6LetterList = convertArrayToList(mask6LetterArray)
-
-        mask7LetterArray = maskLetterFunc(expandedLetterArray, mask7)
-        mask7LetterList = convertArrayToList(mask7LetterArray)  
-
-        mask8LetterArray = maskLetterFunc(expandedLetterArray, mask8)
-        mask8LetterList = convertArrayToList(mask8LetterArray)    
-        
-        mask9LetterArray = maskLetterFunc(expandedLetterArray, mask9)
-        mask9LetterList = convertArrayToList(mask9LetterArray)
-
-        mask10LetterArray = maskLetterFunc(expandedLetterArray, mask10)
-        mask10LetterList = convertArrayToList(mask10LetterArray)
-
-        mask11LetterArray = maskLetterFunc(expandedLetterArray, mask11)
-        mask11LetterList = convertArrayToList(mask11LetterArray)  
-
-        mask12LetterArray = maskLetterFunc(expandedLetterArray, mask12)
-        mask12LetterList = convertArrayToList(mask12LetterArray)                       
+                    
 
 # Obtain the outputs from the full multi-component network
 
@@ -12245,35 +12217,7 @@ def main():
         mask2LetterArray = maskLetterFunc(expandedLetterArray, mask2)
         mask2LetterList = convertArrayToList(mask2LetterArray)
           
-        mask3LetterArray = maskLetterFunc(expandedLetterArray, mask3)
-        mask3LetterList = convertArrayToList(mask3LetterArray)
-                 
-        mask4LetterArray = maskLetterFunc(expandedLetterArray, mask4)
-        mask4LetterList = convertArrayToList(mask4LetterArray)
-        
-        mask5LetterArray = maskLetterFunc(expandedLetterArray, mask5)
-        mask5LetterList = convertArrayToList(mask5LetterArray)
-                 
-        mask6LetterArray = maskLetterFunc(expandedLetterArray, mask6)
-        mask6LetterList = convertArrayToList(mask6LetterArray)
-          
-        mask7LetterArray = maskLetterFunc(expandedLetterArray, mask7)
-        mask7LetterList = convertArrayToList(mask7LetterArray)
-                 
-        mask8LetterArray = maskLetterFunc(expandedLetterArray, mask8)
-        mask8LetterList = convertArrayToList(mask8LetterArray)
-        
-        mask9LetterArray = maskLetterFunc(expandedLetterArray, mask9)
-        mask9LetterList = convertArrayToList(mask9LetterArray)
-                 
-        mask10LetterArray = maskLetterFunc(expandedLetterArray, mask10)
-        mask10LetterList = convertArrayToList(mask10LetterArray)
-          
-        mask11LetterArray = maskLetterFunc(expandedLetterArray, mask11)
-        mask11LetterList = convertArrayToList(mask11LetterArray)
-                 
-        mask12LetterArray = maskLetterFunc(expandedLetterArray, mask12)
-        mask12LetterList = convertArrayToList(mask12LetterArray)
+
                                                             
 ####################################################################################################
 # Step 3: Create the new input array, combining results from GB1 together with the masking filter result(s)
